@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.counter-box {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+#formSuccess {
+  color: green;
+  font-weight: bold;
+}
