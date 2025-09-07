@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page with JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Interactive Web Pages with JavaScript</h1>
+
+
+  <section>
+    <h2>Event Handling Demo</h2>
+    <button id="messageBtn">Click Me!</button>
+    <p id="messageArea"></p>
+  </section>
+
+  <section>
+    <h2> Interactive Features</h2>
+
+    <button id="toggleModeBtn">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div class="counter-box">
+      <button id="decreaseBtn">-</button>
+      <span id="counter">0</span>
+      <button id="increaseBtn">+</button>
+    </div>
+    
+  <section>
+    <h2> Form Validation</h2>
+    <form id="signupForm">
+      <label>Name:</label>
+      <input type="text" id="name" required>
+      <small class="error" id="nameError"></small><br>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      <small class="error" id="emailError"></small><br>
+
+      <label>Password:</label>
+      <input type="password" id="password" required>
+      <small class="error" id="passwordError"></small><br>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
